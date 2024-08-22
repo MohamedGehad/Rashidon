@@ -1,0 +1,340 @@
+body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
+    font-family: 'Cairo', sans-serif !important ;
+}
+
+
+
+
+
+
+.lineHeight{
+    line-height: 1.3 !important;
+}
+
+.header-area.sticky .header__logo img{
+    max-width: fit-content;
+}
+
+
+.cf_image{
+    width: 92px;
+}
+
+.about-area.style-3 .title-wrapper{
+    margin-bottom:30px !important;
+}
+
+.about-area.style-3 .desc-text{
+    max-width: 600px;
+}
+
+.cl-text{
+    color: #1b7461;
+}
+
+
+.list-plus li{
+    width: 107%;
+}
+.imgall{
+    width: 60px;
+}
+.feature-area.style-9.style-3 .wcf_iconbox.style-9 .text{
+    color:#f9f3f3 ;
+}
+.feature-area.style-9.style-3 .wcf_iconbox.style-9 .cf_text {
+   color: #f9f3f3; 
+}
+
+
+
+/*to the full widht */
+.body-wrapper.consultant-corporate{
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+/* Color in website */
+/*green #1b7461*/
+/*gray  #b2b3b7*/  
+/*white #f9f3f3 */
+.banner-3 .banner-content-bg{
+    background-color: #1b7461;
+}
+
+.about-area.style-3 .thumb-wrapper .react-shape{
+    background-color: #1b7461; 
+}
+.feature-area.style-9 .feature-inner .content-wrap{
+    background-color: #1b7461;
+}
+
+
+
+/*icon start and cup */
+.list-plus li::before {
+    content: "\f091"; /* Example: Font Awesome star icon */
+    font-family: "FontAwesome"; /* Update this if you're using a different icon font */
+    position: absolute;
+    inset-inline-start: 0;
+    top: 5px !important;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+
+/*Location*/
+.location-info{
+    background-color: #1b7461;
+}
+/*End Location*/
+
+
+/*Logo*/
+
+.header-area .header__logo{
+    width: auto;
+}
+/*EndLogo*/
+
+
+/*to do tha all page in max size */
+
+.body-wrapper{
+    max-width: 1920px;
+    margin: auto;
+}
+/*end do tha all page in max size */
+
+
+/*about us page*/
+
+
+.about{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.section-subtitle{
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+/* .section-title.large{
+    font-size: 25px;
+
+} */
+.about-intro-area .section-title{
+    max-width: none;
+}
+.font-heading-hkgrotesk-bold h1, .font-heading-hkgrotesk-bold h2, .font-heading-hkgrotesk-bold h3, .font-heading-hkgrotesk-bold h4, .font-heading-hkgrotesk-bold h5, .font-heading-hkgrotesk-bold h6{
+    /* font-weight: 500; */
+    line-height: 1.3;
+}
+
+
+.section-title-Fa{
+    font-size: 30px;
+}
+
+.client-area .section-title{
+    max-width: none;
+}
+
+.info-area .content .wc-btn-primary{
+    background-color: #1b7461;
+    color: #f9f3f3;
+}
+
+.info-area .content .wc-btn-primary:hover{
+    background-color: black;
+    color: #f9f3f3;
+}
+
+.section-title{
+    padding-top: 12px;
+}
+
+.counter-area .wcf_counterbox{
+    background-color: #1b7461;
+}
+.counter-area .wcf_counterbox .title-1{
+    color: #f9f3f3;
+}
+.counter-area .wcf_counterbox .title-2{
+    color: #f9f3f3;
+}
+.counter-area .wcf_counterbox .text{
+    color: #f9f3f3;
+}
+
+.section-title-wrapper.style-2 .section-title{
+    text-decoration-line: none;
+}
+
+.info-area .content .list-plus li{
+    font-weight: 400
+    ;
+}
+.my-40{
+    margin-top: 42px;
+}
+.service-area-green{
+    background-color: #1D7664;
+}
+
+.service-area .wcf_iconbox{
+    border-bottom: 1px solid #fff;
+    border-inline-start: 1px solid #fff;
+
+}
+
+.service-area.style-4{
+    padding-top: 85px;
+}
+
+.experience-area .counter-box{
+    background-color:#117462;
+}
+
+.service-area.style-4 .section-top{
+    display: block;
+}
+
+
+.service-area.style-4 .section-top .section-title{
+    font-size: 45px;
+}
+
+
+.section-title-contact{
+    font-size: 40px;
+}
+
+.location-info .logo{
+    margin-bottom: 100px;
+}
+
+.section-title-wrapper.style-6 .section-title{
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+
+.header-area.sticky{
+    position: fixed;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+.service-area .wcf_iconbox .wc-btn-primary{
+    border: 1px solid #f5f5f5;
+   
+}
+.service-area .wcf_iconbox .wc-btn-primary:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.body-wrapper.consultant-corporate {
+    border-left: 1px solid rgba(18, 18, 18, 0.08);
+    border-right: 1px solid rgba(18, 18, 18, 0.08);
+  
+    --primary: #121212;
+    --secondary: #999;
+    --action-color: var(--primary)
+    ;}
+
+
+
+    .section-title-wrapper.style-1 .section-subtitle{
+        font-size:15px;
+        letter-spacing: 1px;
+    }
+
+    .about-area.style-3{
+        background-color:aliceblue ;
+    }
+
+    .banner-3 .banner-area-bg{
+        background-color: #f5f5f5;
+    }
+
+
+    /*details Page*/
+
+    .project-details-area .section-heading .section-title{
+        max-width: none;
+    }
+    .section-title.large{
+        font-size: 30px;
+    }
+    /* End details Page*/
+
+
+
+
+    /*footer*/
+    
+    .footer-area.style-1{
+background-color: #1D7664;
+    }
+    
+    .footer-area.style-1 .footer-menu-item .title{
+        /* color: #121212; */
+    }
+    .footer-menu-item li a{
+        color: #f5f5f5;
+    }
+    .footer-menu-item li a:hover{
+        color: #121212;
+    }
+    /*End footer*/
+
+
+
+
+    /*Color Btn*/
+
+    .wc-btn-primary{
+        background-color: #1b7461;
+    }
+
+    p{
+        color: #121212;
+    }
+
+
+    .cta-area.style-1 .cta-left{
+        background-color: #ededed;
+    }
+    .cta-area.style-1 .cta-right{
+        background-color: #bdbcbc;
+
+    }
+
+    .cta-area.style-1:before{
+        background-color: #bdbcbc;
+
+    }
+    .social-icons{
+        color: #fff;
+    }
+    .footer-area.style-1 .footer-menu-item li a:hover{
+        color: #121212;
+    }
+    .footer-area.style-1 .social-icons li a:hover{
+        color: #121212;
+    }
+
+    .about-area.style-1 .about-inner .title-wrapper{
+        max-width:500px;
+    }

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Binox HTML5 Template">
+
+  <title>RASHIDOON</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.webp">
+
+
+
+
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/icomon.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/master-project-details.css">
+
+
+
+  <!--FOnt-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="assets/css/styleCustom.css">
+  
+
+
+
+</head>
+
+
+<body class="font-heading-hkgrotesk-bold dir-rtl">
+
+ <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text="X" class="characters">N</span>
+          <span data-text="X" class="characters">O</span>
+          <span data-text="X" class="characters">O</span>
+          <span data-text="X" class="characters">D</span>
+          <span data-text="X" class="characters">I</span>
+          <span data-text="O" class="characters">H</span>
+          <span data-text="N" class="characters">S</span>
+          <span data-text="I" class="characters">A</span>
+          <span data-text="B" class="characters">R</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+  <!-- Scroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="switcher__items">
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Language Support</p>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Layout</p>
+        </div>
+        <div class="switcher__btn layout-type wc-col-2">
+          <button class="active" data-mode="full-width">Full Width</button>
+          <button data-mode="box-layout">Box Layout</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Cursor</p>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+  <!-- offcanvas start  -->
+  <div class="offcanvas-3__area">
+    <div class="offcanvas-3__inner">
+      <div class="offcanvas-3__meta-wrapper">
+        <div class="">
+          <button id="close_offcanvas" class="close-button close-offcanvas" onclick="hideCanvas3()">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="">
+          <div class="offcanvas-3__meta mb-145 d-none d-md-block">
+            <ul>
+              <li><a href="tel:966920006992+" class="unnerline"><u>966920006992+</u></a></li>
+              <li><a href="mailto:info@rashidoon.com.sa">info@rashidoon.com.sa</a></li>
+              <li><a href="#">الامير جلاوي ابن تركي ابن عبدالعزيز , المروج , الرياض, 
+                  </a></li>
+            </ul>
+          </div>
+          <div class="offcanvas-3__social d-none d-md-block">
+            <p class="title">تابعنا</p>
+            <div class="offcanvas-3__social-links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offcanvas-3__menu-wrapper">
+        <nav class="nav-menu offcanvas-3__menu">
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن </a></li>
+            <li><a href="about.html">الخدمات</a></li>
+            <li><a href="about.html">المشاريع</a></li>
+            <li><a href="about.html">للتواصل </a></li>
+
+
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas end  -->
+
+  <!-- search modal start -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="#" class="form-search">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- search modal end -->
+
+  <!-- Header area start -->
+  <header class="header-area style-1 pos-abs zi-9">
+    <div class="container container-large">
+      <div class="header-area__inner">
+        <div class="header__logo">
+          <a href="#">
+            <img src="assets/imgs/all/1-removebg-preview.png" alt="Site Logo">
+          </a>
+        </div>
+        <div class="header__nav pos-center">
+          <nav class="main-menu">
+            <ul>
+              <li class=""><a href="index.html">الرئيسية</a>
+              </li>
+              <li class=""><a href="about.html">من نحن</a>
+
+              </li>
+              <li class="">
+                <a href="service.html">الخدمات</a>
+              </li>
+              <li class="">
+                <a href="projects.html">المشاريع</a>
+                <!-- <ul class="dp-menu">
+                  <li><a href="project-details.html">المحميات الطبيعية</a></li>
+                  <li><a href="consultant-bank.html">الحياة البرية والبستنة</a></li>
+                  <li><a href="consultant-bank.html"> التركيبة المحصولية</a></li>
+                  <li><a href="consultant-bank.html"> نباتات الهيئة الملكية لمحافظة العا الطبيعية</a></li>
+                  <li><a href="consultant-bank.html">تنمية الغطاء النباتي البري</a></li>
+                </ul> -->
+              </li>
+              <li class="">
+                <a href="contact.html">للتواصل</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__meta">
+          <a class="wc-btn-underline btn-text-flip" href="tel:+966-92-000-6992"><span data-text="966920006992+">
+            966920006992+    </span></a>
+        </div>
+        <div class="header__search">
+          <div class="search-icon" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <i class="icon-wcf-search"></i>
+          </div>
+        </div>
+        <div class="header__nav pos-centericon">
+          <button onclick="showCanvas3()" class="open-offcanvas">
+            <span class="icon-wcf-menu-bar-1 text-dark"></span> </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper">
+
+        <!-- overlay switcher close  -->
+        <div class="overlay-switcher-close"></div>
+
+
+        <main>
+
+          <!-- project details area start  -->
+          <section class="project-details-area section-spacing">
+            <div class="container container-large">
+              <div class="project-details-area-inner">
+                <div class="project-details-main-wrapper">
+                  <div class="section-heading">
+                    <div class="section-title-wrapper">
+                      <div class="subtitle-wrapper has_fade_anim">
+                        <span class="section-subtitle">تفاصيل مشروع التركيبة المحصولية </span>
+                      </div>
+                      <div class="title-wrapper has_fade_anim">
+                        <h1 class="section-title large">مشروع دراسة وضع وتنفيذ خطة عمل التركيبة المحصولية 
+                          في المملكة العربية السعودية2</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thumb-main has_fade_anim" data-delay=".35">
+                    <img src="assets/imgs/all/Project/3.jpeg" alt="blog image">
+                  </div>
+                  <div class="section-main-content has_fade_anim">
+                    <div class="meta">
+                      <div class="meta-box">
+                        <div class="icon">
+                        </div>
+                        <div class="content">
+                          <p class="title">النوع</p>
+                          <p class="text">خدمات استشاريه وتنفيذ اعمال </p>
+                        </div>
+                      </div>
+                      <div class="meta-box">
+                        <div class="icon">
+                        </div>
+                        <div class="content">
+                          <p class="title">الجهه المستفيدة</p>
+                          <p class="text">وزارة البيئة والمياه والزراعة – المملكة العربية السعودية.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="meta-box">
+                        <div class="icon">
+                        </div>
+                        <div class="content">
+                          <p class="title">مدة المشروع </p>
+                          <p class="text">3 سنوات</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-box-wrapper">
+                      <div class="content-box">
+                        <div class="feature-content">
+                          <h2 class="section-title">وصف المشروع</h2>
+                          <div class="text-wrapper">
+                            <p class="text"
+                            >
+                            استهدف المشروع تعظيم االستفادة من الميز الزراعية النسبية في جميع مناطق 
+                            المملكة (13 منطقة) من خالل االستغالل األقصى لموارد كل منطقة وامكانياتها 
+                            الزراعية المتاحة لتطوير استراتيجيات أنماط المحاصيل لتحقيق أفضل الممارسات 
+                            الزراعية وتعظيم اإلنتاج األمثل لوحدة المساحة والمياه وتحسين دخل المزارعين 
+                            واستدامة اإلنتاج بإدخال محاصيل جديدة واعدة ضمن أنظمة التركيبة المحصولية 
+                            وبالتالي المساهمة في تحقيق األمن الغذائي في المملكة.                            
+                          </div>
+                          <div class="image-content">
+                           
+                          </div>
+                          <div class="features-wrapper has_fade_anim">
+                            <div class="wcf_iconbox style-1">
+                              <div class="thumb">
+                                <div class="cf_image">
+                                    <img src="assets/imgs/all/Project/timer.png" alt="" srcset="">
+                                </div>
+                              </div>
+                              <div class="content">
+                                <div class="cf_title">
+                                  <h3 class="title">مدة المشروع</h3>
+                                </div>
+                                <div class="cf_text">
+                                  <p class="text">3 سنوات</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wcf_iconbox style-1">
+                              <div class="thumb">
+                                <div class="cf_image">
+                                    <img src="assets/imgs/all/Project/Consulting.png" alt="" srcset="">
+                                </div>
+                              </div>
+                              <div class="content">
+                                <div class="cf_title">
+                                  <h3 class="title">النوع</h3>
+                                </div>
+                                <div class="cf_text">
+                                  <p class="text">خدمات استشاريه وتنفيذ اعمال في 13 منطقة</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wcf_iconbox style-1">
+                              <div class="thumb">
+                                <div class="cf_image">
+                                  <img src="assets/imgs/all/MEWA - Brandmark - RGB.png" alt="feature image">
+                                </div>
+                              </div>
+                              <div class="content">
+                                <div class="cf_title">
+                                  <h3 class="title">الجهه المستفيدة</h3>
+                                </div>
+                                <div class="cf_text">
+                                  <p class="text">وزارة البيئة والمياه والزراعة – المملكة العربية السعودية</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wcf_iconbox style-1">
+                              <div class="thumb">
+                                <div class="cf_image">
+                                    <img src="assets/imgs/all/Project/90-percent.png" alt="" srcset="">
+                                </div>
+                              </div>
+                              <div class="content">
+                                <div class="cf_title">
+                                  <h3 class="title">حالة التنفيذ</h3>
+                                </div>
+                                <div class="cf_text">
+                                  <p class="text" >تحت التنفيذ النهائي</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="feature-content has_fade_anim">
+                          <h2 class="section-title">الانشطة والنتائج</h2>
+                          <span class="section-subtitle">الانشطة</span>
+                          <div class="feature-list">
+                            <p>اشتمل المشروع خالل فترة تنفيذه على العديد من األنشطة على مستوى جميع 
+                              مناطق المملكة، ومنها ما يلي:</p>
+                            <ul class="list-plus">
+                              <li>تنفيذ خطة التركيبة المحصولية لـ (4) محاصيل أولية لكل منطقة، بعدد إجمالي 
+                                (52) محصول لجميع المناطق تجهيز وتهيئة 40 حقل مشاهدة لتطبيق التركيبة 
+                                المحصولية في جميع المناطق                             </li>
+                                <li> تحسين جودة المحاصيل الجديدة الواعدة )البرسيم المصري، الكينوا، الراي 
+                                  جراس اإليطالي، الورد الطائفي، البن، الكاجو( عبر شراكات عالمية متخصصة 
+                                  للمحاصيل المستهدفة )منطقة الرياض، المنطقة الشرقية، منطقة الجوف، 
+                                  منطقة مكة المكرمة، منطقة جازان).
+                                  </li>
+                                <li> عقد 13 لقاء للفنيين والخبراء بمجال التركيبة المحصولية وكذلك المزارعين 
+                                  المتميزين الذين تم تبنيهم للمحاصيل الجديدة، وإقامة 18 ندوة لتأهيل وتدريب 
+                                  الكوادر الفنية حول موضوعات وأهمية التركيبة المحصولية بمناطق المملكة، 
+                                  وإقامة 26 لقاء لبناء القدرات في كل المناطق للمزارعين والقياديين في 
+                                  المناطق والمحافظات التابعة لعدد (40) مزارع في كل لقاء.
+                                  .</li>
+                                <li> القيام بعدد 900 جولة إيضاحية ومتابعة مع المزارعين بجميع مناطق المملكة لضمان 
+                                  الحصول على منتج نهائي آمن</li>
+                                <li>  تقديم الدعم الفني لتحديث قاعدة البيانات الجغرافية للتركيب المحصولي تشمل 
+                                  األصناف المحلية بجميع مناطق المملكة</li>
+                               
+                                  <li> إقامة 3 ورش إقليمية لتأهيل الكوادر الفنية لعدد 30 متدرب، بالتعاون مع مراكز 
+                                    دولية متخصصة في مجال التركيبة المحصولية</li>
+                                  
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="feature-content has_fade_anim">
+                          <h2 class="section-title">النتائج</h2>
+                          <div class="text-wrapper">
+                            <p class="text">تم تنفيذ جميع أعمال المشروع بنجاح، وجاري العمل على استكمال أعمال الربع الرابع للسنة 
+                              الثالثة واألخيرة في المشروع</p>
+                          </div>
+
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- project details area end  -->
+
+          <!-- cta area start  -->
+          <div class="cta-area style-1 mbm-1">
+            <div class="container container-large">
+              <div class="cta-area-wrapper">
+                <div class="cta-left">
+                  <ul class="cta-info">
+                    <li>
+                      <p class="title">الأحد - الخميس :</p>
+                      <span>8:30 am - 10:45 pm</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="cta-right">
+                  <div class="btn-wrapper">
+                    <a class="cf_btn wc-btn-underline btn-text-flip" href="#"><span
+                        data-text="حجز استشارة">حجز استشارة</span>
+                      <i class="icon-wcf-play-2"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- cta area end  -->
+
+        </main>
+
+          <!-- footer area start  -->
+          <footer class="footer-area style-1">
+            <div class="container container-large">
+              <div class="footer-inner">
+                <div class="logo-wrapper">
+                  <a href="#"><img src="assets/imgs/all/logo-w (2).png" alt="site-logo"></a>
+                </div>
+                <div class="links-wrapper">
+                  <div class="footer-menu">
+                    <div class="footer-menu-item">
+                      <h2 class="title">الشركة</h2>
+                      <ul>
+                        <li><a href="">من نحن</a></li>
+                        <li><a href="#">سياسة الخصوصية                      </a></li>
+                        <li><a href="#">وظائف</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-menu-item">
+                      <h2 class="title">الخدمات</h2>
+                      <ul>
+                        <li><a href="#">دراسات استشارية في الاقتصاد .</a></li>
+                        <li><a href="#">خدمات تطوير االستراتيجيات. </a></li>
+                        <li><a href="#">خدمات استشارية لتطوير ونقل تقنيات التنمية المستدامة.</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-menu-item">
+                      <h2 class="title">معلومات الاتصال </h2>
+                      <ul>
+                        <li><a href="#"> الامير جلاوي ابن تركي ابن عبدالعزيز , المروج , الرياض   </a></li>
+                        <li><a href="#">966920006992+    </a></li>
+                        <li><a href="#">info@rashidoon.com.sa</a></li>
+                      </ul>
+                    </div>
+  
+                  </div>
+                  <div class="footer-copyright">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="icon-wcf-facebook"></i></a></li>
+                      <li><a href="#"><i class="icon-wcf-twitter"></i></a></li>
+                      <li><a href="#"><i class="icon-wcf-instragram"></i></a></li>
+                      <li><a href="#"><i class="icon-wcf-linkdin-fill"></i></a></li>
+                    </ul>
+                    <p class="text-copy"> &copy; 2022 <a href="">Rashidoon</a> Agency</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- footer area end  -->
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/error-handling.js"></script>
+  <script src="assets/js/offcanvas.js"></script>
+
+
+
+</body>
+
+
+<!-- Mirrored from crowdytheme.com/html/binox/project-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Jul 2024 12:11:16 GMT -->
+</html>
