@@ -4684,7 +4684,7 @@ section {
   animation-delay: 1s;
 }
 .container-preloader .loader-section {
-  background-color: var(--black);
+  background-color: #1d7664;;
   height: 100%;
   position: fixed;
   top: 0;
