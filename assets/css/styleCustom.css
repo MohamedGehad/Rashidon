@@ -376,7 +376,7 @@ background-color: #1D7664;
 
 
 
-    /* Default: Hide video and show slider */
+/* Default: Show slider (for mobile) and hide video */
 .desktop-video {
     display: none;
   }
@@ -399,3 +399,17 @@ background-color: #1D7664;
   }
   
 
+
+  /* Default: Hide the button on all screens */
+.mobile-button {
+    display: none;
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 767px) {
+    /* Show the button on mobile */
+    .mobile-button {
+      display: block;
+    }
+  }
+  
