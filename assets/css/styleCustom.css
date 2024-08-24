@@ -376,3 +376,26 @@ background-color: #1D7664;
 
 
 
+    /* Default: Hide video and show slider */
+.desktop-video {
+    display: none;
+  }
+  
+  .mobile-slider {
+    display: block;
+  }
+  
+  /* Media Query for Desktop */
+  @media (min-width: 768px) {
+    /* Show video on desktop */
+    .desktop-video {
+      display: block;
+    }
+  
+    /* Hide slider on desktop */
+    .mobile-slider {
+      display: none;
+    }
+  }
+  
+
