@@ -367,3 +367,30 @@ background-color: #1D7664;
     .about-area.style-1 .about-inner .title-wrapper{
         max-width:500px;
     }
+
+
+
+
+
+
+
+
+
+
+    /* Hide play button overlay in WebKit-based browsers (e.g., Chrome, Safari) */
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Hide play button overlay in Firefox */
+video::-moz-media-controls {
+  display: none !important;
+}
+
+/* Hide play button overlay in Edge and Internet Explorer */
+video::-ms-media-controls-play-button {
+  display: none !important;
+}
