@@ -15,7 +15,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
     max-width: fit-content;
 }
 
-
+.banner-3 .banner-content{
+    max-width: 800px;
+}
 .cf_image-ser{
     width: 92px;
 }
@@ -316,7 +318,7 @@ background-color: #1D7664;
     }
     
     .footer-area.style-1 .footer-menu-item .title{
-        /* color: #121212; */
+        color: #121212;
     }
     .footer-menu-item li a{
         color: #f5f5f5;
