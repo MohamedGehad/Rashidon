@@ -252,24 +252,31 @@
             <div class="banner-area-bg"></div>
             <div class="">
               <div class="banner-inner">
-               
+                
                 <div class="banner-inner-bg">
                   <div class="swiper baner-active-2">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="swiper-slide-item">
-                          <video class="w-100" autoplay muted loop playsinline preload="metadata">
-                            <source src="assets/video/Adjustment Layer_2_chr2_prob4 hb compresed.mp4" type="video/mp4">
-                                            <!-- Your browser does not support the video tag. -->
-                          </video>
+                              <video class="w-100" autoplay  loop
+                               src="assets/video/2Nd Scene Fix hbnew Comp.mp4"></video>
                         </div>
                       </div>
+                     
+                     
+                      
+                     
+                     
                     </div>
                   </div>
-                </div>          
-                      <div class="banner-content">
+                </div>
+                <div class="banner-content">
                   <div class="banner-content-bg"></div>
-                
+                  <div class="btn-wrapper btn-move p-relative has_fade_anim" data-delay=".35">
+                    <a class="cf_btn wc-btn-play video-popup light" href="assets/video/team-planning.mp4">
+                      <i class="icon-wcf-play-2"></i>
+                    </a>
+                  </div>
                   <div class="title-wrapper has_fade_anim" data-delay=".5">
                     <h2 class="title lineHeight"> نظم المعرفة للاستشارات والأبحاث (راشدون) </h2>
                   </div>
@@ -1016,12 +1023,12 @@
           prevEl: '.swiper-button-prev',
         },
         loop: false,
-        autoplay: false,
+        autoplay: true,
         speed: 1000,
-        // autoplay: {
-        //   delay: 2000,
-        //   disableOnInteraction: false,
-        // },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
         slidesPerView: 1,
         spaceBetween: 0,
         mousewheel: false,
