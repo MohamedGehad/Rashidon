@@ -102,6 +102,17 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
 }
 
 
+.footer-area.style-1 .logo-wrapper{
+    width: 200px;
+    min-width: 150px;
+}
+
+
+.header__logo img{
+    max-width: 247px;
+    height: 64px;
+}
+
 
 /*icon start and cup */
 .list-plus li::before {
@@ -367,6 +378,9 @@ background-color: #1D7664;
     .about-area.style-1 .about-inner .title-wrapper{
         max-width:500px;
     }
+
+
+
 
 
 
