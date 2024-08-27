@@ -93,19 +93,71 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
 .banner-3 .banner-content-bg{
     background-color: #e7e5e5;
 }
-
+/* Common styles for the banner-inner */
 .banner-3 .banner-inner {
     position: relative;
-    padding-top: 0; /* You can adjust or remove this padding */
-    padding-bottom: 0; /* You can adjust or remove this padding */
-    height: 100vh; /* Full viewport height */
-    overflow: hidden;
+    padding-top: 0; /* Adjust or remove if necessary */
+    padding-bottom: 0; /* Adjust or remove if necessary */
+    overflow: hidden; /* Hide any overflowing content */
+
+}
+
+/* Styles for desktop */
+@media (min-width: 768px) {
+    .banner-3 .banner-inner {
+        height: 100vh; /* Full viewport height for desktop */
+
+    }
+    
+
+    .desktop-video {
+        position: absolute; /* Ensures it fills the viewport */
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 50vh; /* Full viewport height */
+        overflow: hidden;
+    }
+
+
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+
+    
+    .banner-3 .banner-inner {
+        height: 100vh; /* Remove fixed height for mobile */
+        width: 100%;
+    }
+
+    .mobile-slider {
+        width: 100%;
+        height: 100vh; /* Full viewport height for mobile slider */
+        display: block; /* Ensure it is displayed */
+    }
+
+    .mobile-slider .swiper-slide {
+        display: flex; /* Use flexbox to center images if needed */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        height: 100vh; /* Full viewport height for each slide */
+    }
+
+    .mobile-slider .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure images cover the slide */
+    }
+
+    /* Hide desktop video on mobile */
+    .desktop-video {
+        display: none;
+    }
 }
 
 
-.banner-3 .title{
-    color: #fff;
-}
+
 
 .about-area.style-3 .thumb-wrapper .react-shape{
     background-color: #1b7461; 
