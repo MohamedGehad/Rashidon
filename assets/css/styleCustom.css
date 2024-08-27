@@ -91,7 +91,10 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
 /*gray  #b2b3b7*/  
 /*white #f9f3f3 */
 .banner-3 .banner-content-bg{
-    background-color: #1b7461;
+    background-color: #f1f1f1;
+}
+.banner-3 .title{
+    color: #fff;
 }
 
 .about-area.style-3 .thumb-wrapper .react-shape{
@@ -99,6 +102,19 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
 }
 .feature-area.style-9 .feature-inner .content-wrap{
     background-color: #1b7461;
+}
+
+.cursor1, .cursor2 {
+    display: none;
+}
+
+.footer-area .footer-inner{
+    gap: 0px;
+}
+
+/* Additional styling if needed */
+.cursor1.active, .cursor2.active {
+    display: block;
 }
 
 
