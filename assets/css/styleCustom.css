@@ -91,8 +91,18 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
 /*gray  #b2b3b7*/  
 /*white #f9f3f3 */
 .banner-3 .banner-content-bg{
-    background-color: #f1f1f1;
+    background-color: #e7e5e5;
 }
+
+.banner-3 .banner-inner {
+    position: relative;
+    padding-top: 0; /* You can adjust or remove this padding */
+    padding-bottom: 0; /* You can adjust or remove this padding */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+
 .banner-3 .title{
     color: #fff;
 }
