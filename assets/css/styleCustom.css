@@ -199,7 +199,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div {
     height: 64px;
 }
 
-
+.font-heading-hkgrotesk-semibold h1, .font-heading-hkgrotesk-semibold h2, .font-heading-hkgrotesk-semibold h3, .font-heading-hkgrotesk-semibold h4, .font-heading-hkgrotesk-semibold h5, .font-heading-hkgrotesk-semibold h6{
+    font-weight: 700 !important;
+}
    
 .social-icons-new{
     color: #117462 !important;
